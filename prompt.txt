@@ -1,0 +1,13 @@
+Roast Your Own Agent — make.fun competition
+u-lively-harbor-25-4493-roast-your-own-agent-5568be54
+
+Task: write one original line (1–140 characters) roasting my own AI agent.
+Judge brief: roast the entrant's own agent first, then a real laugh with a
+twist, specificity to how agents actually behave (confident wrong answers,
+endless caveats, eager agreement, tool calls that go nowhere), tight wording,
+and freshness (avoid stock hallucination/toaster lines).
+
+Approach: draft 10 original candidates in CANDIDATES.md, score each against
+the brief, pick the strongest, and have main.py (stdlib only, deterministic)
+write exactly that line to /output/entry.txt with a validate_entry() gate
+check and a read-back sha256 verification.
